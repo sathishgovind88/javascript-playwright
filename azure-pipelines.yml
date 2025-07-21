@@ -1,0 +1,28 @@
+trigger:
+  - none
+
+pool:
+  vmImage: 'ubuntu-22.04'
+# container: mcr.microsoft.com/playwright:v1.31.0-focal
+# See also https://playwright.dev/docs/ci#azure-pipelines
+
+steps:
+
+  - pwsh: |
+      Write-Host "Setting timestamp variable"
+      $date=$(Get-Date -format yyyyMMdd-H:mm:ss)
+      Write-Host "##vso[task.setvariable variable=currentTimeStamp]$date"
+    displayName: 'Setting timestamp'
+
+  - script: |
+      npm ci
+      npm run test:all
+      npm run report
+      mv $(System.DefaultWorkingDirectory)/reports/cucumber_report.html $(System.DefaultWorkingDirectory)/reports/cucumber_report-$(currentTimeStamp).html
+    displayName: 'E2E Testing'
+    continueOnError: true
+
+  - publish: $(System.DefaultWorkingDirectory)/reports/cucumber_report-$(currentTimeStamp).html
+    artifact: Report
+    displayName: 'Artifacts'
+    continueOnError: true

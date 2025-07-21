@@ -1,0 +1,965 @@
+[
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of the Background keyword",
+    "elements": [
+      {
+        "description": "",
+        "id": "admin-privileges;admin-can-access-human-resources-records",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Admin can access Human Resources records",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 247362000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2462357800,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form4\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form4\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\loginPage.js:19:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:12:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I submit username \"admin\" and password \"pw1234\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I will be logged into the Admin Dashboard",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Admin searches for employee \"Joe Doe\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "information appears that employee \"Joe Doe\" belongs to department \"Marketing\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17804699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@background",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "admin-privileges;admin-can-access-sales-statistics",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Admin can access Sales statistics",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81548200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2455217700,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form4\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form4\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\loginPage.js:19:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:12:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I submit username \"admin\" and password \"pw1234\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I will be logged into the Admin Dashboard",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "Admin looks up total sales amount for month \"June\" in year \"2022\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:45"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the total \"June\" sales amount is \"32164\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8423600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@background",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "admin-privileges",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Admin Privileges",
+    "tags": [],
+    "uri": "acceptance\\features\\AdminPrivileges.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of concurrent windows",
+    "elements": [
+      {
+        "description": "",
+        "id": "different-people-go-to-different-places;concurrent-windows-are-possible",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Concurrent windows are possible",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78329900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "different people went to different sites",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2435900799,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=orangePage\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=orangePage\", waiting until \"load\"\u001b[22m\n\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:11:24)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "they realize that they forgot what they actually wanted to do there",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "they leave the sites again",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8935499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@concurrentWindows",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "different-people-go-to-different-places",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Different people go to different places",
+    "tags": [],
+    "uri": "acceptance\\features\\ConcurrentWindows.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of inline variables",
+    "elements": [
+      {
+        "description": "",
+        "id": "convert-celsius-feature;convert-celsius-to-correct-fahrenheit-equivalent",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Convert Celsius to correct Fahrenheit equivalent",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85004400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I provide \"30\" degree Celsius",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2479317999,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form6\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form6\", waiting until \"load\"\u001b[22m\n\n    at CelsiusToFahrenheitPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\celsiusToFahrenheitPage.js:18:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\ConvertCelsiusContext.js:8:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click the convert button",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see as result \"86\" Fahrenheit",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ConvertCelsiusContext.js:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7851399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@inlineVars",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "convert-celsius-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Convert Celsius Feature",
+    "tags": [],
+    "uri": "acceptance\\features\\ConvertCelsius.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of a scenario outline",
+    "elements": [
+      {
+        "description": "",
+        "id": "creditcard-feature;different-responses-to-credit-card-data-input",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Different responses to credit card data input",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71017399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on card card entry page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2484039300,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form3\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form3\", waiting until \"load\"\u001b[22m\n\n    at CreditCardEntryPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\creditCardEntryPage.js:21:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\CreditCardContext.js:8:31)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User Joe Doe enters card number 4242424242424242 together with expiry date 10/27 and cvv 753",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the page will respond with Success and provide as reason You are using VISA",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11412299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "creditcard-feature;different-responses-to-credit-card-data-input",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Different responses to credit card data input",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74606100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on card card entry page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2452265600,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form3\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form3\", waiting until \"load\"\u001b[22m\n\n    at CreditCardEntryPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\creditCardEntryPage.js:21:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\CreditCardContext.js:8:31)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User Hans Hansen enters card number 5555555555554444 together with expiry date 02/28 and cvv 159",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the page will respond with Success and provide as reason You are using MASTERCARD",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8312900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "creditcard-feature;different-responses-to-credit-card-data-input",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Different responses to credit card data input",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81886300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on card card entry page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2455607099,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form3\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form3\", waiting until \"load\"\u001b[22m\n\n    at CreditCardEntryPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\creditCardEntryPage.js:21:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\CreditCardContext.js:8:31)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User Eugene Tonya enters card number 4000000000009995 together with expiry date 07/26 and cvv 741",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the page will respond with Declined and provide as reason You have insufficient funds",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\CreditCardContext.js:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8423299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scenarioOutline",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "creditcard-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Creditcard Feature",
+    "tags": [],
+    "uri": "acceptance\\features\\Creditcard.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of horizontal and vertical data tables",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;login-with-correct-credential",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login with correct credential",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75507399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2470444100,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form4\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form4\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\loginPage.js:19:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:12:21)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "admin",
+                      "pw1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter following for login",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be able to access the protected area",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7653800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@horizontalTable",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;login-with-correct-credentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login with correct credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85677199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\AdminPrivilegesContext.js:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2453541700,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form4\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form4\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\loginPage.js:19:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:12:21)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "admin"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "password",
+                      "pw1234"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter following values to login",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click login button",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should be able to access the protected area",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\LoginContext.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8726399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verticalTable",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [],
+    "uri": "acceptance\\features\\Login.feature"
+  },
+  {
+    "description": "  Description: The purpose of this feature is to illustrate the usage of a long vertical table",
+    "elements": [
+      {
+        "description": "",
+        "id": "provide-your-details-feature;submit-address-and-communication-details",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Submit address and communication details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 83744299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to Information about yourself page",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2451246400,
+              "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form1\", waiting until \"load\"\u001b[22m\n\n    at ProvideYourDetailsPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\provideYourDetailsPage.js:26:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:8:34)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstname",
+                      "Joe"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "lastname",
+                      "Doe"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "street",
+                      "10 Example Street"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "city",
+                      "Sample Town"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "zip",
+                      "99999"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "state",
+                      "Great State"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "country",
+                      "USA"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "mobile phone",
+                      "123-456-789"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "home phone",
+                      "987-654-321"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "email",
+                      "joe@example.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I provide the following details",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I will see message \"Thank you!\"",
+            "match": {
+              "location": "acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7817600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verticalTableLong",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "provide-your-details-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Provide Your Details Feature",
+    "tags": [],
+    "uri": "acceptance\\features\\ProvideYourDetails.feature"
+  }
+]

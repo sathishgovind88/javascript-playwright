@@ -1,0 +1,26 @@
+name: Test-Sample-Site-with-Playwright
+services:
+    sample-site:
+        ports:
+            - "8000:8000"
+        stdin_open: true
+        tty: true
+        image: sample-site:latest
+        command: php -S 0.0.0.0:8000
+        healthcheck:
+            test: curl --fail http://localhost:8000 || exit 1
+            interval: 30s
+            retries: 5
+            start_period: 10s
+            timeout: 8s
+    playwright-cucumber-js-docker:
+        network_mode: host
+        stdin_open: true
+        tty: true
+        image: playwright-cucumber-js-docker:latest
+        command: bash -c "npm run test:normal && npm run report"
+        volumes:
+            - .:/app/reports
+        depends_on:
+            sample-site:
+                condition: service_healthy

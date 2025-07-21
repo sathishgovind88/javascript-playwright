@@ -1,0 +1,22 @@
+image: mcr.microsoft.com/playwright:v1.31.0-focal
+# See also https://playwright.dev/docs/ci#gitlab-ci
+
+# or
+# image: node:latest
+# and add 'npx playwright install-deps' as first line under 'script'
+
+stages:
+  - testing
+
+E2E-Testing:
+  stage: testing
+  script:
+    #- npx playwright install-deps
+    - npm ci
+    - npm run test:all
+    - npm run report
+  artifacts:
+    when: always
+    expire_in: 4 days
+    paths:
+      - reports/cucumber_report.html
