@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 247362000
+              "duration": 132358199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2462357800,
+              "duration": 2457790400,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form4\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form4\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\loginPage.js:19:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:12:21)"
             }
           },
@@ -88,7 +88,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17804699
+              "duration": 13488499
             }
           }
         ],
@@ -112,7 +112,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 81548200
+              "duration": 70937799
             }
           },
           {
@@ -125,7 +125,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2455217700,
+              "duration": 2449650799,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form4\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form4\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\loginPage.js:19:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:12:21)"
             }
           },
@@ -186,7 +186,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8423600
+              "duration": 13238100
             }
           }
         ],
@@ -221,7 +221,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 78329900
+              "duration": 119963599
             }
           },
           {
@@ -234,7 +234,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2435900799,
+              "duration": 2444430599,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=orangePage\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=orangePage\", waiting until \"load\"\u001b[22m\n\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\ConcurrentWindowsSteps.js:11:24)"
             }
           },
@@ -269,7 +269,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8935499
+              "duration": 7629700
             }
           }
         ],
@@ -304,7 +304,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 85004400
+              "duration": 68409100
             }
           },
           {
@@ -317,7 +317,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2479317999,
+              "duration": 2446914399,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form6\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form6\", waiting until \"load\"\u001b[22m\n\n    at CelsiusToFahrenheitPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\celsiusToFahrenheitPage.js:18:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\ConvertCelsiusContext.js:8:35)"
             }
           },
@@ -352,7 +352,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7851399
+              "duration": 8565500
             }
           }
         ],
@@ -387,7 +387,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 71017399
+              "duration": 74857299
             }
           },
           {
@@ -400,7 +400,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2484039300,
+              "duration": 2456950799,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form3\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form3\", waiting until \"load\"\u001b[22m\n\n    at CreditCardEntryPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\creditCardEntryPage.js:21:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\CreditCardContext.js:8:31)"
             }
           },
@@ -435,7 +435,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11412299
+              "duration": 8844400
             }
           }
         ],
@@ -459,7 +459,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 74606100
+              "duration": 67574000
             }
           },
           {
@@ -472,7 +472,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2452265600,
+              "duration": 2449401200,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form3\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form3\", waiting until \"load\"\u001b[22m\n\n    at CreditCardEntryPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\creditCardEntryPage.js:21:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\CreditCardContext.js:8:31)"
             }
           },
@@ -507,7 +507,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8312900
+              "duration": 6872799
             }
           }
         ],
@@ -531,7 +531,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 81886300
+              "duration": 69452099
             }
           },
           {
@@ -544,7 +544,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2455607099,
+              "duration": 2473952600,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form3\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form3\", waiting until \"load\"\u001b[22m\n\n    at CreditCardEntryPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\creditCardEntryPage.js:21:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\CreditCardContext.js:8:31)"
             }
           },
@@ -579,7 +579,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8423299
+              "duration": 6794599
             }
           }
         ],
@@ -614,7 +614,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 75507399
+              "duration": 73185499
             }
           },
           {
@@ -627,7 +627,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2470444100,
+              "duration": 2453429599,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form4\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form4\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\loginPage.js:19:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:12:21)"
             }
           },
@@ -692,7 +692,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7653800
+              "duration": 7608399
             }
           }
         ],
@@ -716,7 +716,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 85677199
+              "duration": 70102200
             }
           },
           {
@@ -729,7 +729,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2453541700,
+              "duration": 2420600299,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form4\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form4\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\loginPage.js:19:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\AdminPrivilegesContext.js:12:21)"
             }
           },
@@ -794,7 +794,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8726399
+              "duration": 9491099
             }
           }
         ],
@@ -829,7 +829,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 83744299
+              "duration": 72569700
             }
           },
           {
@@ -842,7 +842,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2451246400,
+              "duration": 2442248400,
               "error_message": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:8000/index.php?action=form1\nCall log:\n\u001b[2m  - navigating to \"http://localhost:8000/index.php?action=form1\", waiting until \"load\"\u001b[22m\n\n    at ProvideYourDetailsPage.visit (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\pageObjects\\provideYourDetailsPage.js:26:25)\n    at World.<anonymous> (C:\\Users\\sathi\\playwright-cucumber-js-example-master\\acceptance\\stepDefinitions\\ProvideYourDetailsContext.js:8:34)"
             }
           },
@@ -942,7 +942,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7817600
+              "duration": 8585200
             }
           }
         ],
